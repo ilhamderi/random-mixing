@@ -31,7 +31,7 @@ resource "google_compute_instance" "metabase" {
   metadata_startup_script = "${file("startup.sh")}"
 
   metadata = {
-    ssh-keys = "ilham:ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABgQDqZ1x4qGkksO48nbYCzRPTSJ4S4c3UOhwQInQlPWWgX7B+ku+1CDf8DOlSpRCS2XZ+nIrhpnJ2kKL0E0RDsoSYvyshblE0Oglvr2eYQuC36so906ZyB0hNmW8mvhkHhvNBRbR6i4qgT1NE6TVxzpQWJJVSzNds1hgpHiZkIGQXIngQtYwMzYgiRAiHSHnGqr7w3r8G31eTq/Hak5xjNhOGqT9GXiRXeVYrZPnFJR3iLevrcl7RQcfHLiFkmysg6UILlIuBWqn/fKyXBdsIMabwm0lgRCjIiB7kNvISCJsB/eMKkyfbOudLsqNZR3YVeOch0h0uIJDzjdJCRp7LmOs0ngnQRSGdkLxiqe5PqXY9tzsqLCYJkYPPuMbc/JlkglmY85uL98y1EfqHAG/cxZkFqor3qEaIMLeLvbXmlhU2S8blxgvCjdo6WkEq94kZZZ4v2m0BgXbeHvOEENGLMneIjckpW4aaesK+P3i8oDumBpC+4n8lOw7ZwBR8dvTsrn8= ilham@jump-server"
+    ssh-keys = "xxx:ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABgQDqZ1x\= xxx@jump-server"
   }
 }
 
